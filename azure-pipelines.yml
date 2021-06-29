@@ -11,7 +11,8 @@ stages:
     - task: GoTool@0
       inputs:
         version: '1.14'
-    - task: Go@0
-      inputs:
-        command: 'get'
-        arguments: 'github.com/google/go-github/github'
+    - script: go get github.com/google/go-github/v32/github
+#    - task: Go@0
+#      inputs:
+#        command: 'get'
+#        arguments: 'github.com/google/go-github/github'
