@@ -10,7 +10,7 @@ stages:
     steps:
     - task: GoTool@0
       inputs:
-        version: '1.14'
+        version: '1.16'
     - script: go get -u -v github.com/Azure/azure-sdk-for-go/...
 #    - task: Go@0
 #      inputs:
