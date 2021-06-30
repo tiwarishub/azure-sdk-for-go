@@ -15,4 +15,4 @@ stages:
     - task: Go@0
       inputs:
         command: 'get'
-        arguments: 'github.com/google/go-github/github'
+        arguments: 'github.com/Azure/azure-sdk-for-go/...'
